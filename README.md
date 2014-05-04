@@ -32,6 +32,4 @@ b = BatchTracker('tracktest1.csv','Tracking Numbers')
 output = b.track()
 
 b.write_results()
-- creates a new csv with a column of delivery dates
-
-'''
+- this creates a new csv file (output.csv)  with a column of delivery dates
